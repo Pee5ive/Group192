@@ -1,0 +1,376 @@
+/* Navigation Section - Header */
+body {
+    background-color: hsl(217, 21%, 26%);
+}
+.header {
+    float:left
+}
+#logo {
+    padding: 4px;
+    margin: 5px;
+    margin-left: 15px;
+}
+li {
+    display: inline-block;
+}
+.my-list {
+    text-align:right;
+}
+#list1  li{
+    padding: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;   
+}
+#list1  a{
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 20px;
+}
+#list1 :hover{
+    color: red;
+}
+/* Productivity section */
+.illustration{
+    margin: auto;
+    display: block;
+    padding-top: 40px;
+}
+.text1 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 40px;
+    padding-top: 20px;
+}
+.text2 {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+    background-image: url(bg-curvy-desktop.svg);
+    background-size: auto;
+}
+.button1 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    border: 0px;
+    background-color:hsl(198, 60%, 50%);
+    border-style: solid;
+    padding: 12px 80px 12px 80px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#section2 {
+    background-color: hsl(218, 28%, 13%);
+    margin-top: 0px;
+}
+
+#Head1, #Body1, #Head2, #Body2, #Head3, #Body3, #Head4, #Body4 {
+    color: white;
+    text-align: center;
+}
+.Flex1 {
+    border: 0px solid black;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.first-icon{
+    border: 0px solid white;
+    width: 45%;
+    margin: 10px;
+}
+.any-class {
+    margin: auto;
+    display: block;
+}
+#section3 {
+    background-color: hsl(218, 28%, 13%);
+}
+.flex2 {
+    border: 0px solid white;
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.section3 {
+    border: 0px solid red;
+    width: 50%;
+}
+.stay1 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#arrowtext {
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: 40%;
+}
+.arrowtext {
+    margin-top: 10px;
+}
+#section4 {
+    background-color:hsl(218, 28%, 13%) ;
+}
+/* Testimonial Section */
+.quotes {
+    border: 0px solid red;
+    width: 50%;
+    padding: 100px 0px 0px 120px;
+}
+#testimonial {
+    border: 0px solid red;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+.testimonial {
+    border: 0px solid white;
+    color: white;
+    background-color: hsl(219, 30%, 18%);
+    width: 30%;
+    margin: 0 auto;  
+    
+}
+#texttext {
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 20px;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+
+}
+#profiles {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profilet {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 10px;
+    line-height: 0px;
+}
+.position {
+    font-size: 8px;
+}
+#section5 {
+    background-color: hsl(218, 28%, 13%);
+    padding: 10px;
+    max-width: 60%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    
+    
+}
+.newbutton {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.headbutton {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.buttonbody {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+#form-button {
+    width: 15%;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+.first-button2 {
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+
+/* Form section */
+
+form{
+    background: hsl(219, 30%, 18%);
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 420px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.forming{
+    padding-top: 50px;
+}
+#form-button{
+    padding: 15px 400px 15px 5px;
+    border-radius: 35px;
+}
+.first-button2{
+    padding: 15px 30px 15px 30px;
+    margin-left: 10px;
+    border-radius: 35px;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+
+
+
+/* Footer */
+
+.foot{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+.fylogo{
+    margin-left: 15px;
+}
+
+.first-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 50px;
+
+}
+.about ul li{
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 100%);
+
+}
+.about2 ul li{
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 100%);
+}
+
+.about-li:hover{
+    color: hsl(174, 68%, 64%);
+    color: white;
+}
+#section5 {
+    position: absolute;
+    bottom: -5%;
+    left: 20%;
+
+}
+.MAIN01 {
+    position: relative;
+}
+.testimonial {
+    margin-bottom: 160px;
+}
+.text01 {
+    color: white;
+}
+#text01 {
+    color: white;
+}
+@media only screen and (max-width: 375px) {
+    .first-icon {
+        width: 80%;
+    }
+    .flex2 {
+        flex-direction: column;
+    }
+    #testimonial {
+        flex-direction: column;
+    }
+    .testimonial {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .heading {
+        width: 80%;
+    }
+    #section5 {
+        max-width: 80%;
+    }
+    .newbutton {
+        width: 60%;
+    }
+    .foot {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .first-icon {
+        width: 80%;    
+    }
+    .flex2 {
+        flex-direction: column;
+    }
+    #testimonial {
+        flex-direction: column;
+    }
+    .testimonial {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+    .heading {
+        width: 80%;
+    }
+    #section5 {
+        max-width: 80%;
+    }
+    .newbutton {
+        width: 60%;
+    }
+    .foot {
+        width: 100%;
+    }
+}
